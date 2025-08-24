@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curations - Cultural Architects & Digital Innovators</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Primary Fonts - Inter for UI, Oswald for Headlines, Space Mono for Code -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&family=IBM+Plex+Serif&family=Roboto+Mono&display=swap">
+    <link href="/src/main.css" rel="stylesheet" />
+    
+    <!-- Youth Curator Program Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalProgram",
+        "name": "Youth Curator Program",
+        "provider": {
+            "@type": "Organization",
+            "name": "CURATIONS",
+            "email": "go@curatedla.xyz",
+            "url": "https://curationsla.com"
+        },
+        "description": "Empowering high school juniors and seniors through mentorship, real-world collaborations, and paid opportunities in digital media and creative content.",
+        "audience": {
+            "@type": "EducationalAudience",
+            "educationalRole": "student",
+            "audienceType": "High School Juniors and Seniors"
+        },
+        "educationalCredentialAwarded": "Digital Portfolio and Professional Experience",
+        "occupationalCategory": "Digital Media and Creative Content",
+        "programPrerequisites": "Current high school junior or senior status",
+        "offers": {
+            "@type": "Offer",
+            "category": "Paid Internship",
+            "description": "74% revenue share from sponsorship collaborations"
+        },
+        "hasCourseInstance": {
+            "@type": "CourseInstance",
+            "courseMode": "Blended",
+            "duration": "P1Y"
+        }
+    }
+    </script>
+    
+    <!-- FAQ Schema for Common Questions -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Who is eligible for the Youth Curator Program?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Current high school juniors and seniors with strong interest in digital media and creative content are eligible. Parent/guardian involvement is required."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How much do Youth Curators earn?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Youth Curators receive 74% of sponsorship revenue from brand collaborations, with complete transparency and proper tax documentation."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I apply for the Youth Curator Program?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Email go@curatedla.xyz with 'Youth Curator Application' in the subject line. Include your class rank, parent/guardian contact information, and a brief statement of interest."
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
