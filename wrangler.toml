@@ -1,0 +1,5 @@
+name = "gotime"
+compatibility_date = "2025-08-24"
+
+[site]
+bucket = "./MASTERS 1.1"
