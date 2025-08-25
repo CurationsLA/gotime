@@ -116,6 +116,7 @@ const OutboxMeter = () => {
 
 export default function Outbox() {
   return (
+    <>
     <main style={{ 
       background: "#F8FAFC", 
       minHeight: "100vh", 
@@ -372,5 +373,6 @@ export default function Outbox() {
       `}</style>
     </main>
       <Footer />
+    </>
   );
 }

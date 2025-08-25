@@ -22,4 +22,5 @@ export default defineConfig({
       '@': resolve(projectRoot, 'src')
     }
   },
+  base: process.env.NODE_ENV === 'production' ? '/gotime/' : '/',
 });
