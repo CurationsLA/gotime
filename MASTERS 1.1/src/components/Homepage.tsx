@@ -708,7 +708,6 @@ export default function Homepage() {
                   style={{ animationDelay: `${index * 0.15}s` }}
                 >
                   <div className={`wyatt-service-card wyatt-card-${(index % 3) + 1} brutal-box`} data-aos="fade-up" data-aos-delay={`${index * 50}`}> {/* Added brutal-box and animation */}
-                  >
                     {/* Card Sparkle Effect */}
                     <div className="wyatt-card-sparkle"></div>
                     
@@ -727,8 +726,6 @@ export default function Homepage() {
                       {/* Enhanced CTA */}
                       <div className="wyatt-cta-container">
                         <div className={`wyatt-service-cta brutal-button ${service.palette}`}> {/* Added brutal-button and palette class */}
-                          }}
-                        >
                           <span className="wyatt-cta-text">EXPLORE</span>
                           <span className="wyatt-cta-arrow">→</span>
                         </div>

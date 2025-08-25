@@ -3,7 +3,7 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border;
   }
 }
 
@@ -867,4 +867,7 @@ body.dev-nav-active .homepage-nav {
 .section-title {
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: clamp(2
+  font-size: clamp(2rem, 4vw, 3rem);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
